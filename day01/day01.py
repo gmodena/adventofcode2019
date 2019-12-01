@@ -14,9 +14,9 @@ if __name__ == '__main__':
         sol_part_1, sol_part_2 = 0, 0
 
         for line in infile:
-            line = line.strip()
+            line = int(line.strip())
             sol_part_1 += part1(line)
             sol_part_2 += part2(line)
 
-        print("Part 1:", sol_part_1)
-        print("Part 2:", sol_part_2)
+        print(f'Part 1: {sol_part_1}')
+        print(f'Part 2: {sol_part_2}')
