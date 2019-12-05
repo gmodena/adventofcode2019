@@ -4,6 +4,7 @@ from operator import add, mul
 import math
 
 
+# TODO(gmodena): clean this mess of labels/functions
 opcodes = {1: add,
            2: mul,
            3: 'input',
